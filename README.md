@@ -1,2 +1,2 @@
 #!/bin/bash
-1. here we can list all tasks
+1. We can list here all tasks
