@@ -1,10 +1,63 @@
-#!/bin/bash
-1. Write a function that produces output according to a format.
-2. Handle the conversion specifiers:
-3. Handle the custom conversion specifiers:
-4. Handle the for the given  conversion specifiers:
-5. Use a local buffer of 1024 chars in order to call write as little as possible.
-6. Handle the for the given custom conversion specifier:
-7. Handle the following conversion specifier: p.
-8. Handle the following flag characters for non-custom conversion specifiers:
-9. Handle the following length modifiers for non-custom conversion specifiers:
+# Printf Project
+
+This project is a group project that focuses on implementing a custom version of the `printf` function in C. The purpose of this project is to enhance our understanding of variadic functions, formatting, and the use of standard input/output functions.
+
+## Resources
+
+To successfully complete this project, it is recommended to read or watch the following resources:
+
+- [Secrets of printf](https://www.cypress.com/file/54761/download)
+- [Group Projects concept page](https://yourprojectpage.com/group-projects)
+- [Flowcharts concept page](https://yourprojectpage.com/flowcharts)
+
+Additionally, you may find the following man pages helpful:
+
+- `printf (3)`
+
+## Requirements
+
+### General
+
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- In the provided examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repository. We will use our own `main.c` files at compilation. Our `main.c` files might be different from the ones shown in the examples.
+- The prototypes of all your functions should be included in your header file called `main.h`
+- Don’t forget to push your header file
+- All your header files should be include guarded
+- Note that we will not provide the `_putchar` function for this project
+
+### GitHub
+
+- There should be one project repository per group. The other members should not fork or clone the project to ensure only one member has the repository in their GitHub account. Otherwise, there is a risk of scoring 0%.
+
+## More Info
+
+### Authorized functions and macros
+
+- `write` (man 2 write)
+- `malloc` (man 3 malloc)
+- `free` (man 3 free)
+- `va_start` (man 3 va_start)
+- `va_end` (man 3 va_end)
+- `va_copy` (man 3 va_copy)
+- `va_arg` (man 3 va_arg)
+
+### Compilation
+
+Your code will be compiled using the following command:
+
+`$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c`
+
+
+As a consequence, be careful not to push any C file containing a `main` function in the root directory of your project. You can create a separate test folder containing all your test files, including the `main` functions. Our main files will include your main header file (`main.h`) using the following line:
+
+```c
+#include "main.h"
+```
+
+You might want to look at the GCC flag `-Wno-format` when testing with your `_printf` and the standard `printf`.
