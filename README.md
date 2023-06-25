@@ -2,18 +2,6 @@
 
 This project is a group project that focuses on implementing a custom version of the `printf` function in C. The purpose of this project is to enhance our understanding of variadic functions, formatting, and the use of standard input/output functions.
 
-## Resources
-
-To successfully complete this project, it is recommended to read or watch the following resources:
-
-- [Secrets of printf](https://www.cypress.com/file/54761/download)
-- [Group Projects concept page](https://yourprojectpage.com/group-projects)
-- [Flowcharts concept page](https://yourprojectpage.com/flowcharts)
-
-Additionally, you may find the following man pages helpful:
-
-- `printf (3)`
-
 ## Requirements
 
 ### General
