@@ -1,8 +1,8 @@
 # Printf Project
 
-[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)]()
 
 This project is a group project that focuses on implementing a custom version of the `printf` function in C. The purpose of this project is to enhance our understanding of variadic functions, formatting, and the use of standard input/output functions.
 
