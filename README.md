@@ -55,3 +55,6 @@ As a consequence, be careful not to push any C file containing a `main` function
 ```
 
 You might want to look at the GCC flag `-Wno-format` when testing with your `_printf` and the standard `printf`.
+
+# Repository Updates
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/:sambeti/:printf/:master)
